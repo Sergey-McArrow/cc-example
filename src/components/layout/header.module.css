@@ -1,0 +1,32 @@
+.header {
+  padding: 0.75rem 2rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  width: 100%;
+}
+.headerContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.signInBtn {
+  background: #ededed;
+  color: #222;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.25rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.signInBtn:hover {
+  background: #e0e0e0;
+}
